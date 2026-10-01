@@ -3,10 +3,26 @@
 venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
 
 # secrets / local config
 .env
+*.env
 
 # generated data (rebuilt by demo_report.py / main.py)
 runs.db
 outputs/
+
+# tooling / agent state
+.omc/
+.claude/
+
+# misc
+.DS_Store
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
