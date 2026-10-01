@@ -1,0 +1,168 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1790845719295,
+  "projectRoot": "/home/sakib/Projects/pde-agents-lite",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "pyproject.toml",
+          "requirements.txt"
+        ]
+      },
+      {
+        "name": "C/C++",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "Makefile"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "make build",
+    "testCommand": "make test",
+    "lintCommand": "ruff check",
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "tests"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "__pycache__": {
+      "path": "__pycache__",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1790845719280,
+      "keyFiles": [
+        "demo_report.cpython-313.pyc"
+      ]
+    },
+    "agents": {
+      "path": "agents",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1790845719287,
+      "keyFiles": [
+        "__init__.py",
+        "context.py",
+        "llm_factory.py",
+        "specialists.py",
+        "supervisor.py"
+      ]
+    },
+    "database": {
+      "path": "database",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1790845719288,
+      "keyFiles": [
+        "__init__.py",
+        "run_store.py"
+      ]
+    },
+    "fem": {
+      "path": "fem",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1790845719289,
+      "keyFiles": [
+        "__init__.py",
+        "assembly.py",
+        "linear_solvers.py",
+        "mesh.py",
+        "quadrature.py"
+      ]
+    },
+    "knowledge_graph": {
+      "path": "knowledge_graph",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1790845719290,
+      "keyFiles": [
+        "__init__.py",
+        "kg_store.py",
+        "rules.py"
+      ]
+    },
+    "outputs": {
+      "path": "outputs",
+      "purpose": null,
+      "fileCount": 12,
+      "lastAccessed": 1790845719291,
+      "keyFiles": [
+        "agent_demo_transcript.txt",
+        "convergence_study.png",
+        "demo_runs.db",
+        "gaussian_source.png",
+        "kg_structure.png"
+      ]
+    },
+    "tests": {
+      "path": "tests",
+      "purpose": "Test files",
+      "fileCount": 1,
+      "lastAccessed": 1790845719291,
+      "keyFiles": [
+        "test_core.py"
+      ]
+    },
+    "venv": {
+      "path": "venv",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1790845719292,
+      "keyFiles": [
+        "CACHEDIR.TAG",
+        "pyvenv.cfg"
+      ]
+    },
+    "venv/bin": {
+      "path": "venv/bin",
+      "purpose": "Executable scripts",
+      "fileCount": 27,
+      "lastAccessed": 1790845719293,
+      "keyFiles": [
+        "activate",
+        "activate.bat",
+        "activate.csh"
+      ]
+    },
+    "venv/lib": {
+      "path": "venv/lib",
+      "purpose": "Library code",
+      "fileCount": 0,
+      "lastAccessed": 1790845719294,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "README.md",
+      "accessCount": 3,
+      "lastAccessed": 1790845827808,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

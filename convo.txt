@@ -1,0 +1,5 @@
+Try these in sequence to see the full system:
+  > Simulate a steady-state heat problem in a copper plate, 373K left, 273K right
+  > Simulate a transient heat problem in stainless steel, 400K left, 293K right, run 60 seconds
+  > What is the success rate and recent run history?
+  > Compare the last two runs

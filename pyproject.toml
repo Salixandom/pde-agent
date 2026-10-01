@@ -1,0 +1,20 @@
+[project]
+name = "pde-agents-lite"
+version = "0.1.0"
+description = "From-scratch adaptation of PDE-Agents (arXiv:2606.07850) for CSE401: LangGraph multi-agent orchestration over a hand-written P1 FEM heat solver"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.0",
+    "rich>=13.0",
+    "numpy>=2.0",
+    "scipy>=1.14",
+    "networkx>=3.0",
+    "scikit-learn>=1.5",
+    "matplotlib>=3.9",
+    "langgraph>=1.2",
+    "langchain-core>=1.5",
+    "langchain-anthropic>=0.3",
+    "langchain-openai",
+    "langchain-google-genai",
+]

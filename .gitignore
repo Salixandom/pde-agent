@@ -1,0 +1,12 @@
+# environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# secrets / local config
+.env
+
+# generated data (rebuilt by demo_report.py / main.py)
+runs.db
+outputs/

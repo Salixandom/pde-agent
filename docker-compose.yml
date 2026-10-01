@@ -1,0 +1,15 @@
+services:
+  pde-agents:
+    build: .
+    env_file:
+      - .env
+    environment:
+      - PDE_AGENTS_DB=/app/data/runs.db
+      - PYTHONWARNINGS=ignore   # suppress Gemini AFC advisory warnings
+    volumes:
+      - pde_data:/app/data
+    stdin_open: true
+    tty: true
+
+volumes:
+  pde_data:
